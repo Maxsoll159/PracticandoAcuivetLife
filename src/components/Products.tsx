@@ -14,7 +14,7 @@ export const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
                 {
                     images.map((image) => (
-                        <div className="relative">
+                        <div className="relative" key={image}>
                             <div
                                 className="absolute -z-1 bottom-0 top-0 w-full h-full
     bg-gradient-to-b from-transparent from-40% via-[#151836]/50 to-[#151836]/80"
