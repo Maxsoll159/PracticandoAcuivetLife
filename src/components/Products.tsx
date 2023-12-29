@@ -6,12 +6,12 @@ export const Products = () => {
     const images = ['/products/prod1.jpg', '/products/prod2.jpg', '/products/prod3.jpg', '/products/prod4.jpg', '/products/prod5.jpg', '/products/prod6.jpg']
 
     return (
-        <section className="container mx-auto py-14">
+        <section className="container mx-auto py-14 px-5">
             <div className="mb-10">
                 <h3 className="font-bold text-4xl text-center text-white ">Productos</h3>
                 <hr className="max-w-[3.25rem] mx-auto" />
             </div>
-            <div className="grid grid-cols-3 gap-5 mt-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
                 {
                     images.map((image) => (
                         <div className="relative">

@@ -2,10 +2,10 @@ import { BentoItems } from './BentoItems';
 
 export const Services = () => {
     return (
-        <section className="container mx-auto py-16">
+        <section className="container mx-auto pt-16 px-5">
             <h3 className="text-center text-4xl text-white font-bold text-pretty mb-2">Nuestros Servicios</h3>
             <hr className="max-w-[3.25rem] mx-auto" />
-            <div className="grid grid-cols-4 gap-4 py-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-20">
                 <BentoItems title="Sanidad y Bioseguridad" icons="user">
                     <p className='max-w-xl text-center text-sm'>Control y mantenimiento de la salud de organismos acuáticos en entornos como psiciculturas.</p>
                 </BentoItems>

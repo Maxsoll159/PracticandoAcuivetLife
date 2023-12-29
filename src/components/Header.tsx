@@ -7,7 +7,7 @@ export const Header = () => {
                 <a href="/" className="col-span-1">
                 <Image src="/products/Logo.png" alt="Logo" width={70} height={70} />
                 </a>
-                <nav className="col-span-1 justify-self-center">
+                <nav className="col-span-1 justify-self-center hidden lg:block">
                     <ul className="flex gap-5 text-white font-semibold">
                         <li><a className="hover:underline underline-offset-4 transition-all ease-in" href="/info">Inicio</a></li>
                         <li><a className="hover:underline underline-offset-4 transition-all ease-in" href="/archivo">Nostros</a></li>
